@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    return render(request,'rekruto/home.html',{'hello':'Hello Ilya!'})
+    return render(request,'rekruto/home.html')
 
 def rekruto(request):
     name=request.GET['name']
