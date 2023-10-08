@@ -1,0 +1,47 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.content{
+    text-align: center;
+
+}
+
+@media (max-width:1919px){
+    .content{
+        margin-top:100px;
+    }
+    .text{
+        font-size: 60px;
+    }
+    .comment{
+        font-size: 40px;
+    }
+}
+
+@media (min-width:1920px){
+    .content{
+        margin-top:100px;
+    }
+    .text{
+        font-size: 60px;
+    }
+    .comment{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:440px){
+    .content{
+        margin-top:50px;
+    }
+    .text{
+        font-size: 40px;
+    }
+    .comment{
+        font-size: 20px;
+    }
+}
